@@ -1,0 +1,7 @@
+﻿local name: string = "DasDarki";
+
+local function formatHello(name: string): string
+    return "Hello " .. name;
+end
+
+print(formatHello(name));
